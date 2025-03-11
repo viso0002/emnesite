@@ -54,6 +54,35 @@
     margin-bottom: 10px;
     font-size: 1rem;
   }
+  .forside_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* To lige store kolonner */
+    align-items: center; /* Centrerer indholdet vertikalt */
+    gap: 40px; /* Afstand mellem tekst og billede */
+    background-color: #E6E2DC; 
+    padding: 60px;
+}
+
+.forside_3 img {
+    width: 80%; /* Sikrer at billedet fylder sin kolonne */
+    height: auto;
+    order: -1;
+}
+
+.forside_3 div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Afstand mellem tekstblokke */
+}
+
+.forside_3 h2 {
+    font-size: 2rem;
+}
+
+.forside_3 p {
+    font-size: 1.1rem;
+}
+
   /* matcha-spots */
   /* opskrifter */
   .opskrifter_1, .opskrifter_2 {

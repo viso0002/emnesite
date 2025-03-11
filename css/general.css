@@ -15,8 +15,12 @@
     h1,h2 {
     font-family: didot;
 }
-h3,h4 {
+h3 {
     font-family: didot;
+}
+h4 {
+    font-family: nunito;
+    font-weight: bold;
 }
 p {
     font-family: nunito;
@@ -131,6 +135,7 @@ header {
     box-shadow:3px 3px 10px rgb(0, 0, 0);
     margin-bottom:1rem;
     font-family: nunito;
+    
 }
 .knap_2:hover {
     background-color:#342E27;
