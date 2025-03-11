@@ -5,15 +5,11 @@
     /* index */
   .knap_1 {
     display: inline-block;
-    background-color: #342E27; 
-    color: #E6E2DC; 
     padding: 12px 20px;
     font-size: 1rem;
-    font-family: nunito;
-    text-decoration: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
-  
+
   .forside_1 img {
     flex: 1;
     display: flex;
@@ -72,6 +68,13 @@
     flex-direction: row-reverse; 
 }
 /* forhandlere */
+.forhandlere_1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    padding: 4rem;
+}
+
 }
 
   

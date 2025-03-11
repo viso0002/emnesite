@@ -52,6 +52,10 @@ header {
     color: #E6E2DC;
     font-size: 1rem; 
 }
+.nav ul li a:hover {
+    color: #342E27;
+}
+
 /* index */
 .forside_1 {
     background-color: #E6E2DC; 
@@ -78,6 +82,15 @@ header {
     color: #342E27; 
     margin-bottom: 20px;
     line-height: 1.5;
+  }
+.knap_1 {
+    background-color: #342E27; 
+    color: #E6E2DC; 
+    font-family: nunito;
+    text-decoration: none;
+}
+.knap_1:hover {
+    background-color: #5F684E;
   }
 .forside_2 {
     background-color: #342E27; 
@@ -162,4 +175,29 @@ p {
     text-align: center;
 }
 /* forhandlere */
+.forhandlere_1 {
+    background-color: #342E27;
+    color: #E6E2DC;
+}
+.forhandlere_1 img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.forhandlere_1 h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.forhandlere_1 ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+.forhandlere_1 li {
+    margin-bottom: 2.5rem
+}
+
 }
