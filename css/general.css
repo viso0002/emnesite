@@ -16,7 +16,7 @@
     font-family: didot;
 }
 h3,h4 {
-    font-family: nunito;
+    font-family: didot;
 }
 p {
     font-family: nunito;
@@ -88,6 +88,7 @@ header {
     color: #E6E2DC; 
     font-family: nunito;
     text-decoration: none;
+    box-shadow:3px 3px 10px rgb(0, 0, 0);
 }
 .knap_1:hover {
     background-color: #5F684E;
@@ -98,11 +99,24 @@ header {
     text-align: center;
     padding: 50px 10%;
   }
-  
-  .forside_2 h2 {
+  .forside_2 p {
+    line-height: 2.5;
+    font-size: 1.1rem;
+}
+
+.forside_2 li {
+    margin-bottom: 20px; 
+    font-size: 1.1rem;
+}
+
+.forside_2 h2 {
     font-size: 2rem;
     margin-bottom: 30px;
   }
+.forside_2 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
 .forside_3 {
     background-color: #E6E2DC;
     color: #342E27;
@@ -114,20 +128,26 @@ header {
     color: #E6E2DC;
     text-decoration: none;
     padding:1rem;
-    box-shadow:2px 2px 2px rgb(0, 0, 0);
+    box-shadow:3px 3px 10px rgb(0, 0, 0);
     margin-bottom:1rem;
     font-family: nunito;
 }
+.knap_2:hover {
+    background-color:#342E27;
+  }
 .knap_3 {
     display:inline-block;
     background-color: #5F684E;
     color: #E6E2DC;
     text-decoration: none;
     padding:1rem;
-    box-shadow:2px 2px 2px rgb(0, 0, 0);
+    box-shadow:3px 3px 10px rgb(0, 0, 0);
     margin-bottom:1rem;
     font-family: nunito;
 }
+.knap_3:hover {
+    background-color:#342E27;
+  }
 /* matcha-spots */
 /* opskrifter */
 .opskrifter {
