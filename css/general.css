@@ -11,6 +11,12 @@
         padding: 0;
         margin: 0;
     }
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%; 
+        width: 100% 
+    }
 /* fonts */
     h1,h2 {
     font-family: didot;
@@ -37,6 +43,18 @@ header {
     align-items: center; 
     justify-content: space-between; 
     padding: 0.6rem 1.5rem; 
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+
+}
+body {
+    padding-top: 50px; 
 }
 
 .logo img {
@@ -120,6 +138,7 @@ header {
 .forside_2 h3 {
     font-size: 1.5rem;
     margin-bottom: 30px;
+    font-weight: lighter;
 }
 .forside_3 {
     background-color: #E6E2DC;
@@ -154,6 +173,25 @@ header {
     background-color:#342E27;
   }
 /* matcha-spots */
+
+.intro h1 {
+    font-size: 2rem;
+    margin-bottom: 20px; 
+    line-height: 1.4;
+    font-weight: lighter;
+}
+
+.matchaspots, .intro {
+    background-color: #342E27;
+    color:#E6E2DC;
+}
+.matcha-spots img {
+    width: 70%; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    justify-content: space-evenly;
+}
 /* opskrifter */
 .opskrifter {
     background-color: #E6E2DC
@@ -224,5 +262,7 @@ p {
 .forhandlere_1 li {
     margin-bottom: 2.5rem
 }
-
+h1, h2, h3 {
+    letter-spacing: 1.5px;
+}
 }

@@ -2,6 +2,7 @@
   
 @media (width>1200px) {
 
+
     /* index */
   .knap_1 {
     display: inline-block;
@@ -9,12 +10,12 @@
     font-size: 1rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
-
-  .forside_1 img {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-  }
+  .forside_1 {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; 
+    align-items: center; 
+}
   
   .forside_1_image img {
     width: 90%;
@@ -56,15 +57,15 @@
   }
   .forside_3 {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* To lige store kolonner */
-    align-items: center; /* Centrerer indholdet vertikalt */
-    gap: 40px; /* Afstand mellem tekst og billede */
+    grid-template-columns: 1fr 1fr; 
+    align-items: center; 
+    gap: 40px; /
     background-color: #E6E2DC; 
     padding: 60px;
 }
 
 .forside_3 img {
-    width: 80%; /* Sikrer at billedet fylder sin kolonne */
+    width: 70%; 
     height: auto;
     order: -1;
 }
@@ -72,7 +73,7 @@
 .forside_3 div {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Afstand mellem tekstblokke */
+    gap: 20px; 
 }
 
 .forside_3 h2 {
@@ -84,6 +85,26 @@
 }
 
   /* matcha-spots */
+  .matchaspots {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    align-items: center;
+  }
+
+  .matcha-spots h4, p {
+    text-align: center;
+  }
+
+  .intro {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
   /* opskrifter */
   .opskrifter_1, .opskrifter_2 {
     display: flex;
