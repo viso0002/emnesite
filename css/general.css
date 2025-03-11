@@ -1,0 +1,132 @@
+@font-face {
+    font-family: nunito;
+    src: url(../fonts/Nunito-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: didot;
+    src: url(../fonts/GFSDidot-Regular.ttf);
+}
+@media (width>1200px) {
+/* fonts */
+    h1,h2 {
+    font-family: didot;
+}
+h3,h4 {
+    font-family: nunito;
+}
+p {
+    font-family: nunito;
+}
+ul,ol {
+    font-family: nunito;
+}
+/* index */
+.forside_1 {
+    background-color: #E6E2DC; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 10%;
+  }
+  
+  .forside_1_text {
+    flex: 1;
+    text-align: left;
+    max-width: 400px;
+  }
+  
+  .forside_1_text h1 {
+    font-size: 2rem;
+    color: #342E27; 
+    margin-bottom: 20px;
+  }
+  .forside_1_text p {
+    font-size: 1.1rem;
+    color: #342E27; 
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+.forside_2 {
+    background-color: #342E27; 
+    color: #E6E2DC; 
+    text-align: center;
+    padding: 50px 10%;
+  }
+  
+  .forside_2 h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+.forside_3 {
+    background-color: #E6E2DC;
+    color: #342E27;
+    text-align: center;
+}
+.knap_2 {
+    display:inline-block;
+    background-color: #5F684E;
+    color: #E6E2DC;
+    text-decoration: none;
+    padding:1rem;
+    box-shadow:2px 2px 2px rgb(0, 0, 0);
+    margin-bottom:1rem;
+    font-family: nunito;
+}
+.knap_3 {
+    display:inline-block;
+    background-color: #5F684E;
+    color: #E6E2DC;
+    text-decoration: none;
+    padding:1rem;
+    box-shadow:2px 2px 2px rgb(0, 0, 0);
+    margin-bottom:1rem;
+    font-family: nunito;
+}
+/* matcha-spots */
+/* opskrifter */
+.opskrifter {
+    background-color: #E6E2DC
+}
+.opskrifter h1 {
+    text-align: center;
+    color: #342E27;
+    margin: 50px auto;
+    padding: 20px;
+}
+.opskrifter_1, .opskrifter_2 {
+    background-color: #E6E2DC; 
+    color: #342E27;
+}
+
+.opskrifter_1 div, .opskrifter_2 div {
+    flex: 1;
+}
+
+.opskrifter_1 img, .opskrifter_2 img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none; 
+}
+
+li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+p {
+    font-size: 1.1rem;
+}
+.opskrifter_1 h2, .opskrifter_1 ul {
+    text-align: center;
+}
+}

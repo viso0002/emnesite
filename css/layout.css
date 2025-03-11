@@ -1,0 +1,72 @@
+
+  
+@media (width>1200px) {
+  .knap_1 {
+    display: inline-block;
+    background-color: #342E27; 
+    color: #E6E2DC; 
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-family: nunito;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .forside_1 img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .forside_1_image img {
+    width: 90%;
+  }
+
+  
+  .forside_2_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px; 
+  }
+  
+  .text-box {
+    flex: 1;
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: nunito;
+    max-width: 400px;
+  }
+  
+  .image-box img {
+    width: 100%;
+    max-width: 350px; 
+    border-radius: 20px; 
+    display: block;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+ 
+  .text-box ul {
+    list-style: none; 
+    padding: 0;
+  }
+  
+  .text-box ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  .opskrifter_1, .opskrifter_2 {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    gap: 40px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.opskrifter_2 {
+    flex-direction: row-reverse; 
+}
+}
+
+  
