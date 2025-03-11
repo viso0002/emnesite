@@ -7,6 +7,10 @@
     src: url(../fonts/GFSDidot-Regular.ttf);
 }
 @media (width>1200px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
 /* fonts */
     h1,h2 {
     font-family: didot;
@@ -19,6 +23,34 @@ p {
 }
 ul,ol {
     font-family: nunito;
+}
+/* header - navigationsmenu */
+header {
+    background-color: #5F684E;
+}
+.nav {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0.6rem 1.5rem; 
+}
+
+.logo img {
+    height: 3.5rem; 
+    width: auto; 
+    vertical-align: middle; 
+}
+
+.nav ul {
+    display: flex;
+    gap: 2rem; 
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #E6E2DC;
+    font-size: 1rem; 
 }
 /* index */
 .forside_1 {
@@ -129,4 +161,5 @@ p {
 .opskrifter_1 h2, .opskrifter_1 ul {
     text-align: center;
 }
+/* forhandlere */
 }
