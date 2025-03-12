@@ -59,9 +59,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr; 
     align-items: center; 
-    gap: 40px; /
+    gap: 40px; 
     background-color: #E6E2DC; 
-    padding: 60px;
+    padding: 80px;
 }
 
 .forside_3 img {
