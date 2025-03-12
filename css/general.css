@@ -25,7 +25,7 @@ h3 {
     font-family: didot;
 }
 h4 {
-    font-family: nunito;
+    font-family: didot;
     font-weight: bold;
 }
 p {
@@ -186,11 +186,10 @@ body {
     color:#E6E2DC;
 }
 .matcha-spots img {
-    width: 70%; 
+    width: 60%; 
     height: 400px; 
     object-fit: cover; 
     border-radius: 8px;
-    justify-content: space-evenly;
 }
 /* opskrifter */
 .opskrifter {
