@@ -6,7 +6,6 @@
     font-family: didot;
     src: url(../fonts/GFSDidot-Regular.ttf);
 }
-@media (width>1200px) {
     * {
         padding: 0;
         margin: 0;
@@ -17,6 +16,20 @@
         height: 100%; 
         width: 100% 
     }
+
+.body_matchaspots {
+    background-color: #342E27;
+}
+.body_opskrifter {
+    background-color: #E6E2DC;
+}
+.body_forhandlere {
+    background-color: #342E27;
+}
+.body_index {
+    background-color: #E6E2DC;
+}
+
 /* fonts */
     h1,h2 {
     font-family: didot;
@@ -134,11 +147,14 @@ body {
 .forside_2 h2 {
     font-size: 2rem;
     margin-bottom: 30px;
+    text-align: center;
   }
+
 .forside_2 h3 {
     font-size: 1.5rem;
     margin-bottom: 30px;
     font-weight: lighter;
+    text-align: center;
 }
 .forside_3 {
     background-color: #E6E2DC;
@@ -185,6 +201,7 @@ body {
     background-color: #342E27;
     color:#E6E2DC;
 }
+
 .matcha-spots img {
     width: 60%; 
     height: 400px; 
@@ -216,6 +233,7 @@ body {
     border-radius: 20px;
 }
 
+
 h2 {
     font-size: 1.5rem;
     font-weight: 400;
@@ -228,7 +246,7 @@ ul {
 
 li {
     font-size: 1.1rem;
-    line-height: 1.8;
+    line-height: 2rem;
 }
 p {
     font-size: 1.1rem;
@@ -324,7 +342,3 @@ footer {
 }
 
 
-.social-icons .icon:hover {
-    color: #E6E2DC;
-}
-}
