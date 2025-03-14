@@ -96,7 +96,7 @@
   .matcha-spots {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrerer billedet og teksten */
+    align-items: center; 
     justify-content: center;
     text-align: center;
     width: 100%;
@@ -142,22 +142,6 @@
 /* mobilversion */
 @media (width<800px) {
     /* header */
-    header {
-        padding: 0.6rem 1rem
-    }
-    body {
-        padding-top: 130px;  
-    }
-
-    .nav ul {
-        display: flex;
-        flex-direction: column; 
-        gap: 1rem;
-    }
-
-    .nav ul li a {
-        font-size: 0.8rem; 
-    }
 
     h1 {
         font-size: 1.5rem;
@@ -195,9 +179,12 @@
         margin-bottom: 15px;
     }
     .forside_1 img, .forside_2 img, .forside_3 img {
-        width: 90%; 
-        max-width: 100%; 
-        height: auto; 
+        width: 90%;
+        max-width: 100%;
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        padding: 30px;
     }
     
     .knap_1 {
@@ -219,10 +206,13 @@
     .matchaspots {
         gap: 30px;
         padding: 20px;
-    }
+        text-align: center; }
 
     .matcha-spots img {
+        padding: 20px;
         width: 70%; 
+        align-items: center;
+    
     }
 
     .matcha-spots h4 {
@@ -247,6 +237,27 @@
 
     .opskrifter_2 ul, .opskrifter_2 ol {
         font-size: 0.8rem;
+    }
+  
+    .opskrifter_1, .opskrifter_2 {
+        gap: 20px;
+    }
+
+    .opskrifter_1 ul, .opskrifter_2 ul,
+.opskrifter_1 ol, .opskrifter_2 ol, .opskrifter_2 h2, .opskrifter_2 p {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0 auto; 
+    text-align: center; 
+    font-size: 1rem; }
+
+    .opskrifter_1 img, .opskrifter_2 img {
+        width: 60%; 
+        max-width: 100%; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        padding: 30px;
     }
 
     /* Forhandlere */
@@ -278,5 +289,6 @@
         font-size: 1rem;
         padding: 8px 15px;
     }
+ 
 }
   
