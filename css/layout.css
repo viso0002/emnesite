@@ -43,7 +43,7 @@
     border-radius: 20px; 
     display: block;
     margin: auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); */
   }
  
   .text-box ul {
@@ -235,7 +235,7 @@
     }
 
 
-    .opskrifter_2 ul, .opskrifter_2 ol {
+    .opskrifter_2 ul, .opskrifter_2 ol, .opskrifter_2 p {
         font-size: 0.8rem;
     }
   
@@ -249,7 +249,7 @@
     padding: 0; 
     margin: 0 auto; 
     text-align: center; 
-    font-size: 1rem; }
+     }
 
     .opskrifter_1 img, .opskrifter_2 img {
         width: 60%; 
